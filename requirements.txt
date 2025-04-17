@@ -1,0 +1,7 @@
+openai
+tomli
+pyvis
+pydantic
+tiktoken
+tqdm
+python-docx

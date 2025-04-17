@@ -1,0 +1,22 @@
+[llm]
+model = "gpt-4"
+api_key = "sk-xxxxxxx"  # Sustituye con tu clave real
+base_url = "https://api.openai.com/v1/chat/completions"
+max_tokens = 8192
+temperature = 0.1
+
+[chunking]
+chunk_size = 150
+overlap = 30
+
+[standardization]
+enabled = true
+use_llm_for_entities = true
+
+[inference]
+enabled = true
+use_llm_for_inference = true
+apply_transitive = true
+
+[visualization]
+edge_smooth = false

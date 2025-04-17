@@ -1,11 +1,10 @@
 # AI-Knowledge-Graph-Español
 
-Este proyecto adapta el generador de grafos de conocimiento usando LLM para funcionar en español y con soporte para GPT-4.
+Versión personalizada del generador de grafos de conocimiento usando LLM (GPT-4), adaptada al español.
 
-## Archivos incluidos
+## Contenido
 
-- `AI_Knowledge_Graph_Espanol.ipynb`: Notebook listo para Google Colab.
-- `config.toml`: Configuración ajustada para GPT-4.
-- `prompts.py`: Prompts personalizados en español.
-- `generate-graph.py`: Script base del proyecto.
-- `requirements.txt`: Dependencias mínimas.
+- prompts personalizados
+- configuración para GPT-4
+- generación de grafos en Colab
+- visualización interactiva

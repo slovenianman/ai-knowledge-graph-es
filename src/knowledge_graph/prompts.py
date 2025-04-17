@@ -11,12 +11,10 @@ Sigue estas reglas:
 
 Devuelve únicamente un array JSON con los triples. Ejemplo:
 
-```json
 [
-  {"subject": "ciudades inteligentes", "predicate": "mejoran", "object": "calidad de vida"},
-  {"subject": "movilidad sostenible", "predicate": "reduce", "object": "emisiones"}
+  {{ "subject": "ciudades inteligentes", "predicate": "mejoran", "object": "calidad de vida" }},
+  {{ "subject": "movilidad sostenible", "predicate": "reduce", "object": "emisiones" }}
 ]
-```
 
 Aquí está el texto a procesar:
 ```{text}```
